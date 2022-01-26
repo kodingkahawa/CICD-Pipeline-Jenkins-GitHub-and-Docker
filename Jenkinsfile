@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                sh 'git https://github.com/kodingkahawa/CICD-Pipeline-Jenkins-GitHub-and-Docker.git'
+                git 'https://github.com/kodingkahawa/CICD-Pipeline-Jenkins-GitHub-and-Docker.git'
             }
         }
     
