@@ -14,7 +14,7 @@ pipeline {
     
         stage('Build') {
             steps {
-                sh 'docker build -t oyaro/test:latest'
+                sh 'docker build -t oyaro/test:latest .'
             }
         }
 
